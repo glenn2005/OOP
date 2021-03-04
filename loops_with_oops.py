@@ -40,8 +40,8 @@ pod.add_member(leader,cell)
 amount = int(input("How many members would you like to add? : "))
 
 for i in range(amount):
-    members = input(" Who is the member? :")
-    cell = int(input("What is their phone number?:"))
+    member = input(" Who is the member? :")
+    cell = input("What is their phone number?:")
     pod.add_member(member, cell)
     
 pod.display_members()
